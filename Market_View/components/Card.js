@@ -21,7 +21,7 @@ const Card = ({ id, name, description, price, imageUrl }) => {
             lineHeight: 16.94,
           }}
         >
-          ${price.toFixed(2)} {/* Используем toFixed для форматирования цены */}
+          ${price.toFixed(2)} 
         </Text>
       </View>
     </View>
