@@ -53,7 +53,6 @@ const MainPage = ({ data }) => {
           />
         ))}
       </View>
-      <View></View>
     </View>
   );
 };
