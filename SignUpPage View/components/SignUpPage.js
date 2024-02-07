@@ -7,7 +7,6 @@ const SignUpPage = () => {
   const [isChecked, setIsChecked] = useState(false);
 
   const handleSignUp = () => {
-    // Add your sign-up logic here
     console.log("Signing up with:", username, password);
   };
 
