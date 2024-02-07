@@ -8,4 +8,4 @@
 
 # Result:
 
-![Market Page]([./path/to/your/image/Market_with_Scroll_Result_Screenshot_2024-02-07_123310.png](https://github.com/IsShems/React-native/blob/main/Market%20with%20Scroll/Result/Screenshot%202024-02-07%20123310.png)https://github.com/IsShems/React-native/blob/main/Market%20with%20Scroll/Result/Screenshot%202024-02-07%20123310.png)
+![Market Page](https://github.com/IsShems/React-native/blob/main/Market%20with%20Scroll/Result/Screenshot%202024-02-07%20123310.png)
