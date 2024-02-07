@@ -8,9 +8,7 @@ const MainPage = ({ data }) => {
   const handleCardPress = (product) => {
     Alert.alert(
       product.name,
-      `Description: ${product.description}\nPrice: $${product.price.toFixed(
-        2
-      )}\nInfo: ${product.info}`
+      `Description: ${product.description}\nPrice: $${product.price.toFixed(2)}\nInfo: ${product.info}`
     );
   };
 
@@ -73,6 +71,28 @@ const MainPage = ({ data }) => {
       </View>
       <View>
         <Text style={styles.sectionTitle}>New Arrivals</Text>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+          <View style={styles.boxForItem}>
+            {data.map(
+              (item) =>
+                item.name.toLowerCase().includes(searchValue.toLowerCase()) && (
+                  <TouchableOpacity key={item.id} onPress={() => handleCardPress(item)}>
+                    <Card
+                      id={item.id}
+                      name={item.name}
+                      description={item.description}
+                      price={item.price}
+                      imageUrl={item.imageUrl}
+                    />
+                  </TouchableOpacity>
+                )
+            )}
+          </View>
+        </ScrollView>
+      </View>
+      {/* Новая секция "Featured Products" */}
+      <View>
+        <Text style={styles.sectionTitle}>Featured Products</Text>
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
           <View style={styles.boxForItem}>
             {data.map(
