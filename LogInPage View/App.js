@@ -1,6 +1,6 @@
 import React from "react";
 import { View, StyleSheet, ImageBackground } from "react-native";
-import MainPage from "./components/LogInPage";
+import LogInPage from "./components/LogInPage";
 
 const App = () => {
   return (
