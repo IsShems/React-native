@@ -5,3 +5,7 @@
 2 - Add two additional sections to the existing ones, add the ability to scroll to the entire page
 
 3 - Add Search to the Market, Content page using the TextInput component. Add a state in which the value will be written
+
+# Result:
+
+![Market Page](./path/to/your/image/Market_with_Scroll_Result_Screenshot_2024-02-07_123310.png)
