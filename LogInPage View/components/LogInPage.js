@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, TextInput, TouchableOpacity } from "react-native";
 
-const LoginPage = () => {
+const LogInPage = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [isChecked, setIsChecked] = useState(false);
@@ -136,4 +136,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default LoginPage;
+export default LogInPage;
