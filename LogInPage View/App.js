@@ -1,11 +1,11 @@
 import React from "react";
 import { View, StyleSheet, ImageBackground } from "react-native";
-import MainPage from "./components/MainPage";
+import MainPage from "./components/LogInPage";
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <MainPage />
+      <LogInPage />
     </View>
   );
 };
