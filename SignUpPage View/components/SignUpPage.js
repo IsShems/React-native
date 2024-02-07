@@ -20,7 +20,7 @@ const SignUpPage = () => {
       <View style={styles.inputs}>
         <TextInput
           style={styles.input}
-          placeholder="Username"
+          placeholder="Name"
           value={username}
           onChangeText={(text) => setUsername(text)}
         />
