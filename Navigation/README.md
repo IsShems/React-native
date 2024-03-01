@@ -1,5 +1,5 @@
 # Homework Navigation
-Purpose of the task: Creating a mobile application using Expo CLI and the React Navigation library. Developed three pages using layout and implemented Keyboard Avoiding View to improve user experience. - https://www.figma.com/file/LTn0bZjWnrcL6GOtDDHi7q/Basic-mobile-app-design-(Community)?node-id=2%3A2&mode=dev
+Purpose of the task: Creating a mobile application using Expo CLI and the React Navigation library. Developed three pages using layout and implemented Keyboard Avoiding View to improve user experience. - [the design] (https://www.figma.com/file/LTn0bZjWnrcL6GOtDDHi7q/Basic-mobile-app-design-(Community)?node-id=2%3A2&mode=dev)
 Instructions:
 
 # Installing Expo CLI:
