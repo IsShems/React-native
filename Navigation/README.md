@@ -27,4 +27,6 @@ Instructions:
 # Keyboard Avoiding View Integration:
 ● Implement Keyboard Avoiding View on every page of your application.
 
+![LogIn Page](https://github.com/IsShems/React-native/blob/main/Navigation/Screenshot%202024-03-01%20145109.png)
+
 ● Ensure that your keyboard functions correctly when interacting with text fields or other input elements.
